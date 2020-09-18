@@ -4,34 +4,34 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>About Me</title>
-		<link rel="stylesheet" href="./Assets/css/reset.css" />
 		<link
 			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://kit.fontawesome.com/3ea7a994a9.js"
-			crossorigin="anonymous"
-		></script>
-		<link rel="stylesheet" href="./Assets/css/styles.css" />
 	</head>
 	<body>
 		<!-- navagation bar -->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-				<h1 class="navbar-brand text-white">Ben Galloway</h1>
-				<ul class="nav float-right">
-					<li class="nav-item">
-						<a
-							class="nav-link text-white active"
-							href="./index.html"
+
+		<nav class="navbar navbar-expand-lg bg-primary">
+			<a class="navbar-brand text-white" href="#">WebSiteName</a>
+			<button
+				class="navbar-toggler"
+				data-toggle="collapse"
+				data-target="#myNavbar"
+				aria-controls="myNavbar"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link text-white active" href="./index.html"
 							>About Me</a
 						>
 					</li>
@@ -41,13 +41,11 @@
 						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-white" href="./contact.html"
-							>Contact</a
-						>
+						<a class="nav-link text-white" href="./contact.html">Contact</a>
 					</li>
 				</ul>
-			</nav>
-		</header>
+			</div>
+		</nav>
 
 		<!-- about me section -->
 		<main class="jumbotron">
@@ -73,5 +71,14 @@
 				</div>
 			</div>
 		</main>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/3ea7a994a9.js"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
