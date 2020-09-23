@@ -1,5 +1,19 @@
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you!  transparenttextures.com */
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you!  transparenttextures.com */
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
 }
